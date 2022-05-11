@@ -70,6 +70,7 @@ test("subtracts from player's health", () => {
     expect(player.getAttackValue()).toBeLessThanOrEqual(15);
   });
 
+
   test("adds a potion to the inventory", () => {
     const player = new Player('Dave');
 
